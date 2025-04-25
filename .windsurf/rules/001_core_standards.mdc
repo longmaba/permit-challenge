@@ -1,0 +1,24 @@
+# 001 Core Standards
+
+## Naming
+- Use `camelCase.js` for filenames.
+- Use `camelCase` for variables and `PascalCase` for classes.
+
+## Comments and Documentation
+- Ensure JSDoc/TSDoc comments for all exported entities (functions, classes, variables).
+
+## Code Quality
+- Follow the DRY (Don't Repeat Yourself) principle; abstract reusable logic.
+- Handle errors gracefully; log them and provide informative error messages to the client.
+- Prioritize security best practices (e.g., input validation, secure storage of secrets).
+- Keep code clean and readable; use meaningful names and comments.
+
+## Formatting
+- Adhere strictly to the Prettier configuration for code formatting.
+
+## API Design
+- Use consistent error response format:
+  ```json
+  { "error": "Error message." }
+  ```
+- Propagate errors to the client with appropriate HTTP status codes (400, 401, 403, 500).
