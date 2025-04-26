@@ -20,8 +20,7 @@ const permit = new Permit({
   // in production, you might need to change this url to fit your deployment
   pdp: 'https://cloudpdp.api.permit.io',
   // your api key
-  token:
-  'permit_key_Zu1R7tfVvBUrc4wSXRP4nL2uGs0st4kVj4A8dPXtyeDyswDRg3q3hcbDA0FMEuA4vxhQGYX8VONY6WF9BRnoTa',
+  token: process.env.PERMIT_API_KEY,
 });
 
 // Health check endpoint
