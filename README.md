@@ -57,7 +57,7 @@ See [demo-commands.md](./demo-commands.md) for curl and PowerShell usage example
 ## Permit.io Setup (Demo Assumptions)
 - Users, roles, and permissions are manually configured in the Permit.io dashboard.
 - API keys are mapped to users (`user_key`) in Permit.io.
-- Roles: `Developer`, `Manager`, `Director` with `read` permission to resources `envdev`, `envstaging`, `envprod`.
+- Roles: `Developer`, `Manager`, `Director` with `read` permission to resources `env:dev`, `env:staging`, `env:prod`.
 
 ## Out of Scope
 - UI for managing users/roles/permissions
