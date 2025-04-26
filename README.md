@@ -19,7 +19,6 @@ npm install
 Create a `.env` file:
 ```
 PERMIT_API_KEY=dummy-key
-# Optionally: PERMIT_PDP_URL=https://your-pdp-url
 ```
 
 ### 3. Start the server
@@ -54,7 +53,7 @@ See [demo-commands.md](./demo-commands.md) for curl and PowerShell usage example
 └── README.md
 ```
 
-## Permit.io Setup (Demo Assumptions)
+## Permit.io Setup
 - Users, roles, and permissions are manually configured in the Permit.io dashboard.
 - API keys are mapped to users (`user_key`) in Permit.io.
 - Roles: `Developer`, `Manager`, `Director` with `read` permission to resources `envdev`, `envstaging`, `envprod`.
